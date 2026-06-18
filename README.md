@@ -17,7 +17,7 @@ using QLoRA — only 1.30% of parameters are trained.
 
 **Key results:**
 - Train loss: 1.87 → 1.49
-- Val loss: 1.77 → 1.57 — no overfitting
+- Val loss: 1.77 → 1.57 - no overfitting
 - Training time: ~6 minutes on T4 GPU
 - GPU peak memory: 7.95 GB
 
@@ -79,7 +79,7 @@ effective_batch = 8  # 2 × 4 grad accumulation
 | 90   | 1.7449    | 1.5770   |
 | 120  | **1.4911** | **1.5746** ✅ |
 
-Val loss decreases consistently — no overfitting on 500 examples.
+Val loss decreases consistently - no overfitting on 500 examples.
 
 ---
 
@@ -135,4 +135,4 @@ tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-3B-Instruct")
 
 ---
 
-*Portfolio project — AI Engineering · Merve Caliskan · 2026*
+* Merve Caliskan · 2026*
